@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #d4e6fe;
+  display: flex;
+  margin: auto;
+  min-height: 100vh;
+}
+.container {
+  background-color: #fdfeff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.contact__us {
+  display: flex;
+  color: #1d35f5;
+  font-weight: normal;
+  text-align: left;
+  margin-right: auto;
+}
+
+.contact_us {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__us h1 {
+  margin-left: 15rem;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+  min-width: 500px;
+  height: 600px;
+  width: 600px;
+}
+
+.form__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  color: #1d35f5;
+}
+.form__row-1,
+.form__row-2,
+.form__row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+::placeholder {
+  color: #1d35f5;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+  display: grid;
+  width: 100%;
+  max-width: 395px;
+  padding: 12px;
+  border: 1px solid #e7e9fe;
+  border-radius: 5px;
+  margin: 8px;
+  resize: none;
+}
+
+#fname,
+#lname {
+  background-color: #e7e9fe;
+}
+#email_input,
+#phone_input {
+  background-color: #dce1ff;
+}
+#address {
+  background-color: #c7cdfd;
+  width: 100%;
+}
+textarea {
+  background-color: #a5b1fd;
+}
+
+form #subject {
+  height: 70px;
+}
+
+input[type="submit"] {
+  background-color: rgba(35, 59, 245, 255);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thanks h4 {
+  color: #55dbb9;
+  font-weight: normal;
+  margin-left: 15rem;
+}
+input[type="submit"]:hover {
+  background-color: #000000;
+}
