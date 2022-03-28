@@ -20,21 +20,13 @@ body {
   width: 50%;
   padding: 10px;
 }
-.contact__us {
+.form__row-contact {
   display: flex;
   color: #1d35f5;
-  font-weight: normal;
-  text-align: left;
-  margin-right: auto;
-}
-
-.contact_us {
-  display: flex;
-  flex-direction: row;
-}
-
-.contact__us h1 {
-  margin-left: 15rem;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .form__container {
@@ -55,13 +47,22 @@ body {
 form {
   color: #1d35f5;
 }
-.form__row-1,
-.form__row-2,
-.form__row-3 {
+
+.form__row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+}
+
+.form__row-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.form__row-thanks {
+  color: #55dbb9;
+  font-size: 14px;
 }
 
 ::placeholder {
@@ -79,6 +80,9 @@ textarea {
   border: 1px solid #e7e9fe;
   border-radius: 5px;
   margin: 8px;
+}
+
+textarea {
   resize: none;
 }
 
@@ -107,17 +111,11 @@ input[type="submit"] {
   color: white;
   padding: 15px 30px;
   border: none;
-  border-radius: 15px;
+  border-radius: 25px;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 15px;
 }
 
-.thanks h4 {
-  color: #55dbb9;
-  font-weight: normal;
-  margin-left: 15rem;
-}
 input[type="submit"]:hover {
   background-color: #000000;
 }
