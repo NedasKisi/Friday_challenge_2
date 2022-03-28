@@ -63,6 +63,7 @@ form {
 .form__row-thanks {
   color: #55dbb9;
   font-size: 14px;
+  margin-left: 10px;
 }
 
 ::placeholder {
